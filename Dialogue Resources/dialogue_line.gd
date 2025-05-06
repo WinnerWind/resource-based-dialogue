@@ -13,7 +13,7 @@ class_name DialogueLine
 		text = new_text
 		_set_resource_name()
 
-var speaker_name:
+var speaker_name:String:
 	get:
 		if custom_speaker_name:
 			return custom_speaker_name
