@@ -18,7 +18,10 @@ var speaker_name:String:
 		if custom_speaker_name:
 			return custom_speaker_name
 		else:
-			return character.character_name
+			if not character == null:
+				return character.character_name
+			else: #No character, nor speaker name defined.
+				return ""
 
 func _set_resource_name():
 	resource_name = speaker_name + " - " + text
