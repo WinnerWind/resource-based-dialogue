@@ -6,6 +6,9 @@ A simple dialogue system that uses resources. Logic to be handled by you!
     - You can do this by using git:
         `git clone https://github.com/WinnerWind/resource-based-dialogue.git`
     - Download the ZIP by clicking the green `<> Code` button just above, and selecting **Download ZIP**
+- Move the folder `Dialogue Resources` anywhere in your project.
+- Reload your editor.
+- You should have access to the classes `DialogueAct`, `DialogueCharacter`, `DialogueLine` and `DialogueChoice`. If so, then you are done.
 ## Benefits
 - Simple, Minimalist
 - Logic is handled by you (Can use your own logic if you so desire!)
