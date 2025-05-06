@@ -14,6 +14,10 @@ config/name="Dialogue Using Resources"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/resource_based_dialogue_editor/plugin.cfg")
+
 [input]
 
 Choice1={
