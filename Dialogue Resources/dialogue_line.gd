@@ -7,6 +7,7 @@ class_name DialogueLine
 		custom_speaker_name = new_text
 		_set_resource_name()
 
+@export var character:DialogueCharacter
 @export_multiline var text:String:
 	set(new_text):
 		text = new_text
@@ -14,7 +15,10 @@ class_name DialogueLine
 
 var speaker_name:
 	get:
-		return custom_speaker_name
+		if custom_speaker_name:
+			return custom_speaker_name
+		else:
+			return character.character_name
 
 func _set_resource_name():
 	resource_name = speaker_name + " - " + text
