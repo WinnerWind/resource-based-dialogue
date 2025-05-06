@@ -1,0 +1,8 @@
+@tool
+extends Resource
+class_name DialogueCharacter
+
+@export var character_name:String:
+	set(new_name):
+		character_name = new_name
+		resource_name = new_name
